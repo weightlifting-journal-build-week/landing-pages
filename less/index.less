@@ -31,6 +31,15 @@ header {
     li {
         //  TDB: Might implement sign-in / menu, etc. 
     }
+    .search-box {
+        position: relative;
+    }
+
+    .search-box span i {
+        position: absolute;
+        top: 11px;
+        left: 16px;
+    }
 
     .search-box .search-text{
         border: none;
@@ -39,7 +48,13 @@ header {
         padding: 12px;
         height: 30px;
         width: 180px;
+        background: #F83E71;
+        font-size: 1.4rem;
     }
+}
+
+::placeholder {
+    color: #FC7999;
 }
 
 button {
@@ -53,9 +68,10 @@ button {
     width: 150px;
     z-index: 1;
     box-shadow: 0px 4px 4px #CCCBCB;
+    font-size: 1.2rem;
 
     span {
-        padding-right: 5px;
+        padding-right: 10px;
     }
 }
 

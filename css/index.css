@@ -24,6 +24,14 @@ header .header-container {
   justify-content: space-between;
   margin: 0 auto;
 }
+header .search-box {
+  position: relative;
+}
+header .search-box span i {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+}
 header .search-box .search-text {
   border: none;
   border-radius: 3px;
@@ -31,6 +39,11 @@ header .search-box .search-text {
   padding: 12px;
   height: 30px;
   width: 180px;
+  background: #F83E71;
+  font-size: 1.4rem;
+}
+::placeholder {
+  color: #FC7999;
 }
 button {
   display: block;
@@ -43,7 +56,8 @@ button {
   width: 150px;
   z-index: 1;
   box-shadow: 0px 4px 4px #CCCBCB;
+  font-size: 1.2rem;
 }
 button span {
-  padding-right: 5px;
+  padding-right: 10px;
 }
