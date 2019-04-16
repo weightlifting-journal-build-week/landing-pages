@@ -21,10 +21,6 @@ header .header-container {
   justify-content: space-between;
   margin: 0 auto;
 }
-header ul li {
-  list-style: none;
-  font-size: 1.6rem;
-}
 header .search-box {
   position: relative;
 }
@@ -45,6 +41,20 @@ header .search-box .search-text {
 }
 ::placeholder {
   color: #FC7999;
+}
+.header-links {
+  margin-right: 70px;
+}
+.header-links a {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.header-links :hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.header-links .first {
+  padding-right: 5px;
 }
 .workout-btn {
   display: block;
@@ -69,4 +79,8 @@ header .search-box .search-text {
 }
 .content-container h2 {
   text-align: center;
+}
+.content-container p {
+  font-size: 1.6rem;
+  line-height: 1.8;
 }
