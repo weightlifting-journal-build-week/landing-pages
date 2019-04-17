@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+#about__us__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about {
+    width: 150px;
+    display: inline-block;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+p {
+    text-align: center;
+    padding: 4px 0;
+}
+
+.fa-github {
+    display: block;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
