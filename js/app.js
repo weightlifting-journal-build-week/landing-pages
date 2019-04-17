@@ -7,8 +7,18 @@ function toggleNav() {
     navTriggerEl.addEventListener('click', function() {
         navEl.classList.toggle('open');
         contentEl.classList.toggle('shift');
+        animateHamburgers();
     })
 }
 
+function animateHamburgers() {
+    for(let burger of hamburgerBarsEl) {
+        burger.classList.toggle('change');
+    }
+}
+
 toggleNav();
+
+
+
 
