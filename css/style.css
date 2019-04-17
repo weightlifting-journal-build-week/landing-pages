@@ -21,6 +21,7 @@ body {
   background: #27292F;
   z-index: 9999;
 }
+/* will use javascript to add open class to .nav */
 .open {
   left: 0px;
 }
