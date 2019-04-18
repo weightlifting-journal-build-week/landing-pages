@@ -121,14 +121,14 @@ li a:hover {
   text-decoration: none;
 }
 
-
-/* phone */
-
-@media (max-width: 500px) {
-  /* .hamburger {
-    display: flex;
-  } */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 30px;
 }
+
 
 
 
