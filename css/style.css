@@ -115,6 +115,14 @@ body {
 }
 
 
+/* phone */
+
+@media (max-width: 500px) {
+  /* .hamburger {
+    display: flex;
+  } */
+}
+
 
 
 
