@@ -113,6 +113,10 @@ body {
 .workout-btn span {
   padding-right: 10px;
 }
+.cta-btn {
+  color: white;
+  text-decoration: none;
+}
 
 
 /* phone */
