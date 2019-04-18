@@ -18,7 +18,7 @@ body {
   width: 260px;
   left: -260px;
   height: 100%;
-  background: #27292F;
+  background: #F50057;
   z-index: 9999;
 }
 /* will use javascript to add open class to .nav */
@@ -31,7 +31,7 @@ body {
 .menu__item {
   font-size: 1.4rem;
   color: #eee;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #fff;
   padding: 1.2rem;
   text-transform: uppercase;
   transition: 0.3s all ease;
@@ -41,8 +41,11 @@ body {
   text-decoration: none;
 }
 .menu__item:hover {
-  background: #111;
+  background: #fff;
   cursor: pointer;
+}
+li a:hover {
+  color: #F50057;
 }
 /**** hamburger icon ****/
 .hamburger {
@@ -55,7 +58,7 @@ body {
 }
 .hamburger span {
   display: block;
-  background: #222;
+  background: #F50057;
   margin: 6px 0;
   height: 6px;
   width: 36px;
@@ -101,7 +104,7 @@ body {
   display: block;
   margin: 0 auto;
   border: none;
-  background: black;
+  background: #F50057;
   color: #eee;
   padding: 15px;
   border-radius: 19px;
